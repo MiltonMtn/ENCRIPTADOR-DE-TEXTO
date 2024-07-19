@@ -24,7 +24,7 @@ let textoCifrado = texto
      document.getElementById ("imagen_Derecha").src = "encriptado.gif";
     }
     else {
-        document.getElementById ("imagen_Derecha").src = "Img/Muñeco.png";
+        document.getElementById ("imagen_Derecha").src = "Muñeco.png";
         parrafo_Derecha.textContent = "Ingresa el texto que deseas Encriptar o Desencriptar";
         document.getElementById ("titulo_Mensaje").textContent = "No se ha encontrado ningun texto";
         alert ("Debes ingresar algun texto");
