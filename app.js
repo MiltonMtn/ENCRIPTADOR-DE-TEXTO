@@ -45,7 +45,7 @@ let textoCifrado = texto
         document.getElementById("texto").value = textoCifrado;
         titulo_Mensaje.textContent = "Texto desencriptado con éxito";
         parrafo_Derecha.textContent = "";
-        document.getElementById ("imagen_Derecha").src = "Img/desencriptar.gif";
+        document.getElementById ("imagen_Derecha").src = "desencriptar.gif";
       }
       else {
         document.getElementById ("imagen_Derecha").src = "Img/Muñeco.png";
