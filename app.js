@@ -21,7 +21,7 @@ let textoCifrado = texto
      document.getElementById ("texto").value = textoCifrado;
      document.getElementById ("titulo_Mensaje").textContent = "Texto encriptado con éxito";
      document.getElementById ("parrafo_Derecha").textContent = "";
-     document.getElementById ("imagen_Derecha").src = "Img/encriptado.gif";
+     document.getElementById ("imagen_Derecha").src = "encriptado.gif";
     }
     else {
         document.getElementById ("imagen_Derecha").src = "Img/Muñeco.png";
