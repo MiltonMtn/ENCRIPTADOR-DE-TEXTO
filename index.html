@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto Mtn</title>
+    <link rel="shortcut icon" href="Img/candado.png" type="image/x-icon">
+    <link rel="stylesheet" href= "styles.css" >
+
+</head>
+
+<body>  
+
+    <div class="container">
+        
+        <div class="encriptar">
+
+             <textarea name="Texto" class="texto" id="texto" placeholder="Ingresa el texto aquí"></textarea>
+
+        </div>
+
+<div class="terminos">
+  
+    <p>Solo letras minusculas y sin acentos por favor.</p>
+
+</div>
+
+<div class="botones">
+
+<button class="Boton__Encriptar" type="button" onclick="encriptar()"> 
+    
+    Encriptar !
+
+</button>
+
+<input type="button" class="Boton__Desencriptar" value="Desencriptar !" onclick="desencriptar()">
+
+</div>
+
+    </div>
+
+    <div class="encriptado"> 
+
+        <img src="Img/Muñeco.png" alt="" id="imagen_Derecha">
+    
+    
+        <div class="mensaje_Derecha_Encriptado" id="mensaje_Derecha_Encriptado">
+    
+            <h2 id="titulo_Mensaje"> No se ha encontrado ningun texto</h2>
+            <p id="parrafo_Derecha">Ingresa el texto que deseas Encriptar o Desencriptar</p>
+    
+        </div>
+
+        <footer class="footer" id="footer">
+            <p>Desarrollado por MILTON GUILLIN</p>
+            <a>Creado en 2024 - Alura LATAM - ORACLE NEXT EDUCATION</a>
+
+</body>
+
+<script src="app.js"></script>
+
+
+  </footer>
+
+</html>
+
